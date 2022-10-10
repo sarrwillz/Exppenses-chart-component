@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+:root {
+  --clr-body: hsl(27, 66%, 92%);
+  --clr-header: hsl(10, 79%, 65%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: var(--clr-body);
+}
+.data-balance {
+  background-color: var(--clr-header);
+  padding: 2em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+  border-radius: 10px;
+}
+.data__balance p {
+  margin-top: 1em;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.data__balance h2 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.two--circles {
+  position: relative;
+}
+.circle {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  background: black;
+}
+.circle-two {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 2px solid #fff;
+  position: absolute;
+  left: -40%;
+  top: 5%;
+}
